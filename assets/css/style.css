@@ -1,0 +1,284 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+#body{
+    background: #31007a;
+}
+/* navbar */
+#navbar .navbar{
+    background: #31007a;
+    color: white;
+}
+#navbar .logo{
+    height: 60px;
+    width: 90px;
+}
+.logo-name{
+    font-size: 30px;
+    font-weight: 600;
+}
+#navbar .navbar-nav{
+margin-left:auto ;
+
+}
+#navbar .nav-item a{
+    margin-right: 20px;
+    font-size: 20px;
+    color: white;
+}
+#navbar .btn{
+    background-image: linear-gradient(to right, blue, violet);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+/* navbar */
+
+
+
+/* banner */
+#banner .banner_left{
+    background: 31007a;
+    color: white;
+}
+#banner .banner_top{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner_title h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+#banner .banner_title{
+    margin-top: 30px;
+}
+#banner .banner_title p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+#banner .banner_buttons{
+    display: flex;
+    margin-top: 35px;
+}
+#banner .btn{
+    background-image: linear-gradient(to right, blue, violet);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-right: 40px;
+
+}
+#banner .banner_buttons .play_btn{
+    padding: 7px;
+}
+#banner .banner_buttons .play_btn_dot i{
+    font-size: 25px;
+}
+#banner .banner_buttons .play_btn_link{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    margin-left: 5px;
+}
+/* banner */
+
+/* seurity area */
+#security .security_heading{
+    margin-top: 20px;
+    text-align: center;
+}
+#security .security_heading span{
+    font-size: 25px;
+    color: #fff200;
+}
+#security .security_heading h3{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#security .row .fa-user-secret{
+    font-size: 100px;
+    color: #ffa300;
+}
+#security .single_security{
+    align-items: center;
+    justify-content: center;
+}
+#security .single_security_content{
+    margin-left: 20px;
+}
+#security .single_security h3{
+    font-size: 20px;
+    
+}
+#security .single_security .fa-arrow-up-right-from-square{
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+#security .single_security .read_more{
+    text-decoration: none;
+    font-size: 20px;
+}
+#security .row{
+    margin-top: 35px;
+    color: aqua;
+    margin-bottom: 50px;
+}
+/* seurity area */
+/* About */
+#about .style span{
+    font-size: 20px;
+    color: yellow;
+}
+#about .style h3{
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#about .style p{
+    font-size: 16px;
+    color: white;
+}
+#about .content-card .icon{
+    background: white;
+    height: 70px;
+    width: 110px;
+    font-size: 50px;
+    text-align: center;
+    padding: 7px;
+    border-radius: 40px;
+}
+#about .content{
+    color: white;
+    margin-left: 20px;
+}
+#about .content-card{
+    margin-top: 20px;
+}
+
+#about .container{
+    margin-bottom: 35px;
+}
+/* About */
+/* service */
+#service .service_heading{
+    margin-top: 20px;
+    text-align: center;
+}
+#service .service_heading span{
+    font-size: 25px;
+    color: #fff200;
+}
+#service .service_heading h3{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#service .container{
+    margin-bottom: 30px;
+}
+
+/* service */
+/* project */
+#project .project_heading{
+    margin-top: 20px;
+}
+#project .project_heading span{
+    font-size: 25px;
+    color: #fff200;
+}
+#project .project_heading h3{
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+#project .btn{
+    background-image: linear-gradient(to right, blue, violet);
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+/* Team */
+#team .team_heading{
+    margin-top: 20px;
+    text-align: center;
+}
+#team .team_heading span{
+    font-size: 25px;
+    color: #fff200;
+}
+#team .team_heading h3{
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#team .container{
+    margin-bottom: 40px;
+}
+
+
+/* Team */
+
+/* address */
+#address .container{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+#address iframe{
+    width:440px;
+     height:300px
+}
+
+/* address */
+#contact iframe{
+    width:440px;
+    height:300px
+}
+
+/* mediaquery */
+@media screen and (min-width:320px) and (max-width:992px)  {
+#address iframe{
+    width:700px;
+     height:350px
+}
+#contact iframe{
+    width:700px;
+     height:350px
+}
+
+
+
+
+}
+
+
+
+/* mediaquery */
